@@ -1,6 +1,6 @@
 import java.net.URI;
 
-public static void main(String[] args) throws Exception {
+void main(String[] args) {
     if (args.length != 1) {
         System.err.println("Usage: java Assignment1 <url>");
         System.exit(1);
